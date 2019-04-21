@@ -1,2 +1,2 @@
-# duncan.github.io
+# duncanam.github.io
 Website for Duncan!
