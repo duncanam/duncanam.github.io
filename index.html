@@ -30,6 +30,13 @@ img.bg {
   left: 0;
 }
 
+@media screen and (max-width: 1920px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -960px;   /* 50% */
+  }
+}
+
  #name-container { position: relative; width: 600px; margin: 10% auto; padding: 20px; background: none; text-shadow: 6px 6px 15px var(--nord0); color: var(--nord7)}
 
 h1 { font: 70px Rubik, sans-serif; }
