@@ -22,8 +22,9 @@ body {
  #name-container { position: relative; text-align: center;  background: none; text-shadow: 6px 6px 15px #111; color: var(--nord7)}
 
 h1 { font: 70px Rubik, sans-serif; }
+h2 { font: 40px Rubik, sans-serif; }
 
- #page-wrap { position: relative; width: 60%; margin: 0% auto; padding: 40px 40px; background: #3b4252a6; -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; border-radius: 25px;}
+ #page-wrap { position: relative; width: 60%; margin: 0% auto; padding: 40px 40px; background: #3b4252ff; -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; border-radius: 25px;}
  p { font: 20px Rubik, sans-serif; margin: 0 0 0px 0; text-indent: 0px; color: var(--nord4);}
 
 /* Container holding the image and the text */
@@ -42,7 +43,6 @@ h1 { font: 70px Rubik, sans-serif; }
   color: var(--nord4)
 }
 
-
 .centered_image {
 	display: block;
 	position: relative;
@@ -51,12 +51,23 @@ h1 { font: 70px Rubik, sans-serif; }
 	text-align: center;
 }
 
-  .pdf_icon {
-	display: block;
+  .icon_box {
 	position: relative;
-	left: 40%;
+	vertical-align: middle;
 	margin: 5% 0;
 	
+  }
+
+  .icon_image {
+	position: relative;
+	margin-left: 5%;
+  }
+
+  .icon_text {
+		font: 50px Rubik, sans-serif;
+		color: var(--nord7);
+		margin-left: 35%;
+		text-shadow: 6px 6px 15px #111;
   }
 
   .bottom-three {
@@ -69,10 +80,9 @@ h1 { font: 70px Rubik, sans-serif; }
 	<div class="banner">
 	<img src="./img/cfd/cfd2.gif" style="width:100%;">
 	<div class="centered">
-		<h1> Hello, my name is<br> Duncan McGough. </h1>
+		<h1> Hi, my name is<br> Duncan McGough. </h1>
 	</div>
 	</div>
-
 	<div class="centered_image">
 		<img src="./img/scroll.svg" style="width:5%;">
 	</div>
@@ -82,12 +92,37 @@ h1 { font: 70px Rubik, sans-serif; }
 	 I graduated from the University of Colorado Boulder with a BS in Aerospace Engineering and am currently working on my master's in Aerospace Engineering with a focus in Fluids and Propulsion from CU as well.  I've worked as a intern at SpaceX in the Thermal-Fluids department, as a thermal engineering intern at Roccor, and worked on projects in NASA Space Grant.  I like fluids, propulsion, thermodynamics, and software.  I've linked my email, CV, Github, and LinkedIn below! 
 
 	</p>
+</div> 
+
+<div class="icon_box">
+	<span class="icon_text"> Email: </span>
+	<a href="mailto:duncan.mcgough@colorado.edu"> 
+	<img class="icon_image" src="./img/mail.svg" style="width:10%; vertical-align:middle;">
+	</a>
 </div>
 
-<div class="pdf_icon">
-	<a href="https://github.com/duncanam/resume/raw/master/McGoughResume.pdf"><img src="./img/pdf.svg" style="width:10%;"></a>
+
+<div class="icon_box">
+	<span class="icon_text"> Resumé: </span>
+	<a href="https://github.com/duncanam/resume/raw/master/McGoughResume.pdf">
+	<img class="icon_image" src="./img/pdf.svg" style="width:8%; vertical-align:middle;">
+	</a>
 </div>
 
+
+<div class="icon_box">
+	<span class="icon_text"> GitHub: </span>
+	<a href="https://github.com/duncanam">
+	<img class="icon_image" src="./img/github.svg" style="width:8%; vertical-align:middle;">
+	</a>
+</div>
+
+<div class="icon_box">
+	<span class="icon_text"> LinkedIn: </span>
+	<a href="https://www.linkedin.com/in/duncan-mcgough">
+	<img class="icon_image" src="./img/linkedin.svg" style="width:6%; vertical-align:middle;">
+	</a>
+</div>
 
 
 
