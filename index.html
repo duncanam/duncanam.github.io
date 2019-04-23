@@ -23,8 +23,8 @@ body {
 
 h1 { font: 70px Rubik, sans-serif; }
 
- #page-wrap { position: relative; width: 600px; margin: 0% auto; padding: 40px 20px; background: #3b4252a6; -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; border-radius: 25px;}
- p { font: 16px Rubik, sans-serif; margin: 0 0 0px 0; text-indent: 0px; color: var(--nord9);}
+ #page-wrap { position: relative; width: 60%; margin: 0% auto; padding: 40px 40px; background: #3b4252a6; -moz-box-shadow: 0 0 20px black; -webkit-box-shadow: 0 0 20px black; box-shadow: 0 0 20px black; border-radius: 25px;}
+ p { font: 20px Rubik, sans-serif; margin: 0 0 0px 0; text-indent: 0px; color: var(--nord4);}
 
 /* Container holding the image and the text */
 .banner {
@@ -34,11 +34,12 @@ h1 { font: 70px Rubik, sans-serif; }
 /* Centered text */
 .centered {
   position: absolute;
+  width: 100%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-shadow: 6px 6px 15px #111; 
-  color: var(--nord7)
+  color: var(--nord4)
 }
 
 
@@ -50,30 +51,49 @@ h1 { font: 70px Rubik, sans-serif; }
 	text-align: center;
 }
 
+  .pdf_icon {
+	display: block;
+	position: relative;
+	left: 40%;
+	margin: 5% 0;
+	
+  }
+
+  .bottom-three {
+     margin-bottom: 100px;
+  }
+
 
 </style>
 </head>
 	<div class="banner">
 	<img src="./img/cfd/cfd2.gif" style="width:100%;">
 	<div class="centered">
-		<h1> Duncan McGough </h1>
+		<h1> Hello, my name is<br> Duncan McGough. </h1>
 	</div>
 	</div>
 
 	<div class="centered_image">
-		<img src="./img/scroll.svg" style="width:100px;">
+		<img src="./img/scroll.svg" style="width:5%;">
 	</div>
 
 <div id="page-wrap">
 	<p>
-	I'm currently working on this website as of 4/22/19. Check back in a while for more updates. Thanks! <br><br>
-
-	If you'd like, you can take a look at my github though, which is: <a href="https://github.com/duncanam"> duncanam </a>
+	 I graduated from the University of Colorado Boulder with a BS in Aerospace Engineering and am currently working on my master's in Aerospace Engineering with a focus in Fluids and Propulsion from CU as well.  I've worked as a intern at SpaceX in the Thermal-Fluids department, as a thermal engineering intern at Roccor, and worked on projects in NASA Space Grant.  I like fluids, propulsion, thermodynamics, and software.  I've linked my email, CV, Github, and LinkedIn below! 
 
 	</p>
 </div>
 
+<div class="pdf_icon">
+	<a href="https://github.com/duncanam/resume/raw/master/McGoughResume.pdf"><img src="./img/pdf.svg" style="width:10%;"></a>
+</div>
+
+
+
+
+<p class="bottom-three"> </p>
 
 </body>
 
 </html>
+
